@@ -1,112 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>
-  .carousel-control-prev, .carousel-control-next
-  {
-  
-    height: auto;
-    width: 200px;
-    background-color: rgba(255, 255, 255, 0);
-  }
-.carousel
-{
-  position: relative;
-  left: auto;
-  right: auto;
-  height: auto;
-    width: 60vw;
-} 
-.carousel-control-prev-icon,.carousel-control-next-icon
-{
-  height: 50px;
-    width: 60px;
-    background-color: rgba(0, 0, 0, 0.637);
-}
-body { background-color: #646464; 
-}
-.container-fluid{
-    justify-content: center;
-}
+    <title>Embera Puerto Boyacá</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</style> 
-  
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">    
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="image_src" href="image/img_1_pre.jpg" />
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-responsive">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Inicio</a>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="nav-item"><a href="perfil.html">Perfil</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Proyectos <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="embera.html">Territorializacion Embera en Puerto Boyaca
-              </a></li>
-              <li><a href="pto.html">Capital antisubversiva de Colombia</a></li>
-              <li><a href="guaviare.html">Guaviare selva y colonización</a></li>
-                    <li><a href="#">Playa Güío ecoturismo y esperanza</a></li>
-              <li><a href="#">Playa Güío ecoturismo y esperanza</a></li>
-              <li><a href="#">Comunicacion e incidencia política</a></li>
-              <li><a href="#">Gobernanza del agua en Bogotá</a></li>
-
-            </ul>
-          </li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-
       </div>
-    </nav>
-      
-
-    <div class="container">
-
-  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="images/img_1.jpg" alt="Los Angeles" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="images/img_2.jpg" alt="Chicago" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="images/img_3.jpg" alt="New york" style="width:100%;">
-      </div>
-      <div class="item">
-        <img src="images/img_4.jpg" alt="New york" style="width:100%;">
-      </div>
+      <div class="site-mobile-menu-body"></div>
     </div>
+    
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+
+
+    <header class="site-navbar py-3" role="banner">
+
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2" data-aos="fade-down">
+            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">Relatos Embera</a></h1>
+          </div>
+          <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
+            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Inicio</a></li>
+                <li class="has-children">
+                  <a href="">Temáticas</a>
+                  <ul class="dropdown">
+                    <li><a href="alto_san_juan.html">Alto San Juan</a></li>
+                    <li><a href="bonanza_agricola.html">Bonanza Agrícola Puerto Boyacá</a></li>
+                    <li><a href="geografiasterror.html">Geografías del Terror</a></li>
+                    <li><a href="motordochake.html">Motordochake</a></li>
+                    <li><a href="casaloma.html">Casaloma</a></li>
+                    <li><a href="#">Tutela</a></li>
+                    <li><a href="#">Territorialidad</a></li>
+                  </ul>
+                </li>
+                  <li class="has-children">
+                  <a href="">Relatos</a>
+                  <ul class="dropdown">
+                    <li><a href="familia_leiva.html">Familia Leiva</a></li>
+                    <li><a href="manuel.html">Manuel</a></li>
+                    <li><a href="gerardo.html">Gerardo</a></li>
+                    <li><a href="JoseVicente.html">José Vicente</a></li>
+                    <li><a href="Carlos.html">Carlos</a></li>
+                    <li><a href="adan.html">Adán</a></li>
+                    <li><a href="ernestina.html">Ernestina</a></li>
+                    <li><a href="doreliza.html">Doreliza</a></li>
+                    <li><a href="oscar.html">Óscar</a></li>
+                    <li><a href="juan_rosa.html">Juan y Rosa</a></li>
+                    <li><a href="byron.html">Byron</a></li>
+                    <li><a href="milena.html">Milena</a></li>
+                  </ul>
+                </li>
+                <li><a href="linea_tiempo.html">Línea del Tiempo</a></li>
+                <li><a href="portal.html">Acerca del portal</a></li>
+                <li><a href="geoportal.html">Geoportal</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
+            <div class="d-none d-xl-inline-block">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                <li>
+                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/fotojuanma2014/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+
+
+
+  <div class="container-fluid" data-aos="fade" data-aos-delay="500">
+    <div class="swiper-container images-carousel">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Familia Leiva</h2>
+                  <a href="familia_leiva.html" class="btn btn-outline-white py-2 px-4">Historia de vida</a>
+                </div>
+                <img src="images/img_familia_leiva.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Manuel</h2>
+                  <a href="manuel.html" class="btn btn-outline-white py-2 px-4">Historia de vida</a>
+                </div>
+                <img src="images/img_manuel.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Gerardo </h2>
+                  <a href="gerardo.html" class="btn btn-outline-white py-2 px-4">Historia de vida</a>
+                </div>
+                <img src="images/img_8.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">José Vicente</h2>
+                  <a href="JoseVicente.html" class="btn btn-outline-white py-2 px-4">Historia de vida</a>
+                </div>
+                <img src="images/img_1.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Carlos</h2>
+                  <a href="Carlos.html" class="btn btn-outline-white py-2 px-4">Historia de vida</a>
+                </div>
+                <img src="images/img_2.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Adán</h2>
+                  <a href="adan.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_3.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Ernestina</h2>
+                  <a href="ernestina.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_4.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Doreliza</h2>
+                  <a href="doreliza.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_doreliza.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Óscar</h2>
+                  <a href="oscar.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_oscar.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Juan y Rosa</h2>
+                  <a href="juan_rosa.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_6.jpg" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Byron</h2>
+                  <a href="byron.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_7.jpg" alt="Image">
+              </div>
+            </div>
+          
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <h2 class="mb-3">Milena</h2>
+                  <a href="milena.html" class="btn btn-outline-white py-2 px-4">Historia de Vida</a>
+                </div>
+                <img src="images/img_milena.jpg" alt="Image">
+              </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
   </div>
 
-  
+  <div class="footer py-4">
+    <div class="container-fluid">
+      <p>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Relatos Embera Katío y Embera Chamí de Puerto Boyacá, Colombia</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      </p>
+    </div>
+  </div>
+
+    
+
+    
+    
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+
     
   </body>
 </html>
